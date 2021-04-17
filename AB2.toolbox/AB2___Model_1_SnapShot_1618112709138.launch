@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.lamport.tla.toolbox.tool.tlc.modelCheck">
+    <stringAttribute key="configurationName" value="Model_1_SnapShot_1618112709138"/>
+    <intAttribute key="distributedFPSetCount" value="0"/>
+    <stringAttribute key="distributedNetworkInterface" value="10.18.27.235"/>
+    <intAttribute key="distributedNodesCount" value="1"/>
+    <stringAttribute key="distributedTLC" value="off"/>
+    <intAttribute key="fpIndex" value="93"/>
+    <intAttribute key="maxHeapSize" value="25"/>
+    <stringAttribute key="modelBehaviorInit" value=""/>
+    <stringAttribute key="modelBehaviorNext" value=""/>
+    <stringAttribute key="modelBehaviorSpec" value="Spec"/>
+    <intAttribute key="modelBehaviorSpecType" value="1"/>
+    <stringAttribute key="modelBehaviorVars" value="BVar, AVar, AtoB2, BtoA2"/>
+    <stringAttribute key="modelComments" value=""/>
+    <booleanAttribute key="modelCorrectnessCheckDeadlock" value="true"/>
+    <listAttribute key="modelCorrectnessInvariants"/>
+    <listAttribute key="modelCorrectnessProperties"/>
+    <intAttribute key="modelEditorOpenTabs" value="10"/>
+    <stringAttribute key="modelParameterActionConstraint" value=""/>
+    <listAttribute key="modelParameterConstants">
+        <listEntry value="Bad;;Bad;1;0"/>
+        <listEntry value="Data;;{d1, d2, d3};1;0"/>
+    </listAttribute>
+    <stringAttribute key="modelParameterContraint" value="/\ Len(AtoB2) &lt; 4&#10;/\ Len(BtoA2) &lt; 4"/>
+    <listAttribute key="modelParameterDefinitions"/>
+    <stringAttribute key="modelParameterModelValues" value="{}"/>
+    <stringAttribute key="modelParameterNewDefinitions" value=""/>
+    <intAttribute key="modelVersion" value="20191005"/>
+    <intAttribute key="numberOfWorkers" value="8"/>
+    <stringAttribute key="result.mail.address" value=""/>
+    <stringAttribute key="specName" value="AB2"/>
+    <stringAttribute key="tlcResourcesProfile" value="local custom"/>
+</launchConfiguration>
